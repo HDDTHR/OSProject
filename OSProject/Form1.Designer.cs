@@ -162,7 +162,6 @@
             deadlockLbl.Size = new Size(138, 15);
             deadlockLbl.TabIndex = 1;
             deadlockLbl.Text = "Are there any deadlocks?";
-            deadlockLbl.Visible = false;
             // 
             // safeLbl
             // 

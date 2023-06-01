@@ -108,8 +108,8 @@ namespace OSProject
             this.safeResLbl.Text = (safeState ? "Yes < " : "No < ") + sequence + ">";
             this.safeResLbl.ForeColor = safeState ? Color.Green : Color.Red;
 
-            //this.deadlockResLbl.Text = safeState ? "No" : "Yes";
-            //this.deadlockResLbl.ForeColor = safeState ? Color.Green : Color.Red;
+            this.deadlockResLbl.Text = safeState ? "No" : "Maybe";
+            this.deadlockResLbl.ForeColor = safeState ? Color.Green : Color.Red;
         }
 
         private void testButton_Click(object sender, EventArgs e)
